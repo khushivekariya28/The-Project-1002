@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+         <link rel="stylesheet" href="./styles/style.css">
+        <link rel="stylesheet" href="./styles/760px.css">
+        <link rel="stylesheet" href="./styles//560px.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-lzBOH6wfGknFkYMZxdK6eMpXQX9gfaokIWFLUXjvAAJbrzGwDWl+Jujn8OKfUUtZ" crossorigin="anonymous">
+        <script src="./js/main.js" defer></script>
+
+          <title>Jane Austen Autobiography - Contact</title>
+    </head>
+
+    <body>
+        <p id="my-paragraph"></p>
+        <button id="increase-font-size">Increase font size</button>
+        <button id="decrease-font-size">Decrease font size</button>      
+
+        <nav class="main-nav">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="novels.html">Novels</a></li>
+            <li><a href="achievements.html">Achievements</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+
+        <main>
+            <section class="contact">
+              <h1>Contact Us</h1>
+              <p>If you have any questions or comments about Jane Austen or this website, please don't hesitate to get in touch with us using the form below.</p>
+              <img src="./images/Jane-.webp" alt="">
+              
+              <form action="submit-form.php" method="POST">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+                
+                <img src="./images/house.jpg" alt="">
+                <p>Jane Austen's House Museum is a small independent museum in the village of Chawton near Alton in Hampshire. It is a writer's house museum occupying the 17th-century house (informally known as Chawton Cottage) in which novelist Jane Austen spent the last eight years of her life.</p>
+                <button type="submit">Submit</button>
+            </form>
+
+              <div class="social">
+                <h2>Follow Us on Social Media</h2>
+                <ul>
+                  <li><a href="https://www.facebook.com/janeausten" target="_blank"><i class="fab fa-facebook"></i></a></li>
+                  <li><a href="https://www.twitter.com/janeausten" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                  <li><a href="https://www.instagram.com/janeausten" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                  <li><a href="https://www.youtube.com/janeausten" target="_blank"><i class="fab fa-youtube"></i></a></li>
+                </ul>
+              </div>
+            </section>
+          </main>
+
+          <footer>
+            <p>Copyright © 2023 Jane Austen Autobiography</p>
+          </footer>
+
+          <script src="https://kit.fontawesome.com/a75c24e2dc.js" crossorigin="anonymous"></script>
+
+        </body>
+        </html>
